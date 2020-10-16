@@ -1,0 +1,79 @@
+package org.epragati.permits.vo;
+
+import java.io.Serializable;
+
+import org.epragati.common.vo.BaseVO;
+
+public class PermitVehicleMappingVO extends BaseVO implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private String id;
+	
+	private String cov;
+
+	private Boolean status;
+
+	private String permitType;
+
+	/**
+	 * @return the id
+	 */
+	public String getId() {
+		return id;
+	}
+
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	/**
+	 * @return the cov
+	 */
+	public String getCov() {
+		return cov;
+	}
+
+	/**
+	 * @param cov the cov to set
+	 */
+	public void setCov(String cov) {
+		this.cov = cov;
+	}
+
+	/**
+	 * @return the status
+	 */
+	public Boolean getStatus() {
+		return status;
+	}
+
+	/**
+	 * @param status the status to set
+	 */
+	public void setStatus(Boolean status) {
+		this.status = status;
+	}
+
+	/**
+	 * @return the permitType
+	 */
+	public String getPermitType() {
+		return permitType;
+	}
+
+	/**
+	 * @param permitType the permitType to set
+	 */
+	public void setPermitType(String permitType) {
+		this.permitType = permitType;
+	}
+
+	
+}
